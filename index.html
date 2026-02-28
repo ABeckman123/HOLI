@@ -801,8 +801,7 @@ async function submitSurvey() {
   };
 
   try {
-    if (APPS_SCRIPT_URL === 'https://script.google.com/macros/s/AKfycbz7SWTd-KGtrps1z5oDEqGt_SQrK8cuie7mJ1vToH2dK0DxwGT_XHz8BbHgz42OGPyN/exec') {
-      console.log('Survey payload (no backend configured):', payload);
+if (APPS_SCRIPT_URL === 'YOUR_APPS_SCRIPT_URL_HERE') {      console.log('Survey payload (no backend configured):', payload);
       await new Promise(function(r) { setTimeout(r, 800); });
     } else {
       await fetch(APPS_SCRIPT_URL, {
