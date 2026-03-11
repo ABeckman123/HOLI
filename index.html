@@ -34,410 +34,142 @@
     -webkit-font-smoothing: antialiased;
   }
 
-  /* Top banner bar */
-  .top-bar {
-    background: var(--maroon);
-    height: 6px;
-    width: 100%;
-  }
+  .top-bar { background: var(--maroon); height: 6px; width: 100%; }
 
-  .container {
-    max-width: 660px;
-    margin: 0 auto;
-    padding: 32px 20px 80px;
-  }
+  .container { max-width: 660px; margin: 0 auto; padding: 32px 20px 80px; }
 
-  /* Header */
-  .header {
-    text-align: center;
-    margin-bottom: 36px;
-  }
-  .header-logo {
-    font-family: 'Playfair Display', serif;
-    font-size: 28px;
-    font-weight: 700;
-    color: var(--maroon);
-    letter-spacing: 3px;
-    margin-bottom: 4px;
-  }
-  .header-logo span {
-    color: var(--gold);
-  }
-  .header-subtitle {
-    font-size: 13px;
-    font-weight: 600;
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
-    color: var(--text-muted);
-    margin-bottom: 20px;
-  }
-  .header h1 {
-    font-family: 'Playfair Display', serif;
-    font-size: 30px;
-    font-weight: 600;
-    color: var(--text);
-    margin-bottom: 4px;
-  }
-  .header .tagline {
-    font-size: 15px;
-    color: var(--gold);
-    font-weight: 600;
-    margin-bottom: 20px;
-  }
-  .divider {
-    width: 60px;
-    height: 3px;
-    background: var(--maroon);
-    margin: 0 auto 20px;
-    border-radius: 2px;
-  }
+  .header { text-align: center; margin-bottom: 36px; }
+  .header-logo { font-family: 'Playfair Display', serif; font-size: 28px; font-weight: 700; color: var(--maroon); letter-spacing: 3px; margin-bottom: 4px; }
+  .header-logo span { color: var(--gold); }
+  .header-subtitle { font-size: 13px; font-weight: 600; letter-spacing: 1.5px; text-transform: uppercase; color: var(--text-muted); margin-bottom: 20px; }
+  .header h1 { font-family: 'Playfair Display', serif; font-size: 30px; font-weight: 600; color: var(--text); margin-bottom: 4px; }
+  .header .tagline { font-size: 15px; color: var(--gold); font-weight: 600; margin-bottom: 20px; }
+  .divider { width: 60px; height: 3px; background: var(--maroon); margin: 0 auto 20px; border-radius: 2px; }
 
-  /* Intro card */
   .intro-card {
-    background: var(--card);
-    border: 1px solid var(--border);
-    border-radius: var(--radius);
-    padding: 28px 30px;
-    margin-bottom: 24px;
-    box-shadow: var(--shadow);
-    border-left: 4px solid var(--maroon);
+    background: var(--card); border: 1px solid var(--border); border-radius: var(--radius);
+    padding: 28px 30px; margin-bottom: 24px; box-shadow: var(--shadow); border-left: 4px solid var(--maroon);
   }
-  .intro-card p {
-    font-size: 15px;
-    color: var(--text);
-    margin-bottom: 14px;
-    line-height: 1.7;
-  }
+  .intro-card p { font-size: 15px; color: var(--text); margin-bottom: 14px; line-height: 1.7; }
   .intro-card p:last-child { margin-bottom: 0; }
   .intro-card .confidential {
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    background: var(--maroon-light);
-    color: var(--maroon);
-    font-size: 13px;
-    font-weight: 600;
-    padding: 6px 14px;
-    border-radius: 6px;
-    margin-top: 4px;
+    display: inline-flex; align-items: center; gap: 6px; background: var(--maroon-light);
+    color: var(--maroon); font-size: 13px; font-weight: 600; padding: 6px 14px; border-radius: 6px; margin-top: 4px;
   }
 
-  /* Progress */
-  .progress-bar {
-    width: 100%;
-    height: 4px;
-    background: var(--warm-tan);
-    border-radius: 4px;
-    margin-bottom: 28px;
-    overflow: hidden;
-  }
-  .progress-fill {
-    height: 100%;
-    background: linear-gradient(90deg, var(--maroon), var(--gold));
-    border-radius: 4px;
-    transition: width 0.5s ease;
-  }
-  .step-label {
-    font-size: 12px;
-    color: var(--text-muted);
-    margin-bottom: 8px;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-  }
+  .progress-bar { width: 100%; height: 4px; background: var(--warm-tan); border-radius: 4px; margin-bottom: 28px; overflow: hidden; }
+  .progress-fill { height: 100%; background: linear-gradient(90deg, var(--maroon), var(--gold)); border-radius: 4px; transition: width 0.5s ease; }
+  .step-label { font-size: 12px; color: var(--text-muted); margin-bottom: 8px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; }
 
-  /* Cards */
   .card {
-    background: var(--card);
-    border: 1px solid var(--border);
-    border-radius: var(--radius);
-    padding: 32px;
-    margin-bottom: 20px;
-    box-shadow: var(--shadow);
+    background: var(--card); border: 1px solid var(--border); border-radius: var(--radius);
+    padding: 32px; margin-bottom: 20px; box-shadow: var(--shadow);
   }
-  .card h3 {
-    font-family: 'Playfair Display', serif;
-    font-size: 20px;
-    font-weight: 600;
-    color: var(--maroon);
-    margin-bottom: 4px;
-  }
-  .card .card-desc {
-    color: var(--text-muted);
-    font-size: 14px;
-    margin-bottom: 24px;
-  }
+  .card h3 { font-family: 'Playfair Display', serif; font-size: 20px; font-weight: 600; color: var(--maroon); margin-bottom: 4px; }
+  .card .card-desc { color: var(--text-muted); font-size: 14px; margin-bottom: 24px; }
 
-  /* Form elements */
-  label.field-label {
-    display: block;
-    font-size: 15px;
-    font-weight: 600;
-    margin-bottom: 8px;
-    color: var(--text);
-  }
-  label.field-label .req {
-    color: var(--error);
-    margin-left: 2px;
-  }
+  label.field-label { display: block; font-size: 15px; font-weight: 600; margin-bottom: 8px; color: var(--text); }
+  label.field-label .req { color: var(--error); margin-left: 2px; }
+  label.field-label .opt { color: var(--text-muted); font-weight: 400; font-size: 13px; margin-left: 4px; }
 
-  input[type="text"],
-  input[type="email"],
-  textarea {
-    width: 100%;
-    padding: 12px 14px;
-    font-family: 'Source Sans 3', sans-serif;
-    font-size: 15px;
-    color: var(--text);
-    border: 1.5px solid var(--border);
-    border-radius: 8px;
-    background: #FDFCF9;
-    transition: border-color 0.2s, box-shadow 0.2s;
-    outline: none;
+  input[type="text"], input[type="email"], textarea {
+    width: 100%; padding: 12px 14px; font-family: 'Source Sans 3', sans-serif; font-size: 15px;
+    color: var(--text); border: 1.5px solid var(--border); border-radius: 8px; background: #FDFCF9;
+    transition: border-color 0.2s, box-shadow 0.2s; outline: none;
   }
-  input:focus, textarea:focus {
-    border-color: var(--maroon);
-    box-shadow: 0 0 0 3px rgba(139,35,50,0.08);
-    background: #fff;
-  }
-  textarea {
-    min-height: 120px;
-    resize: vertical;
-  }
+  input:focus, textarea:focus { border-color: var(--maroon); box-shadow: 0 0 0 3px rgba(139,35,50,0.08); background: #fff; }
+  textarea { min-height: 120px; resize: vertical; }
 
-  .field-group {
-    margin-bottom: 24px;
-  }
-  .field-group:last-child {
-    margin-bottom: 0;
-  }
+  .field-group { margin-bottom: 24px; }
+  .field-group:last-child { margin-bottom: 0; }
 
-  /* Callout box for check-in recommendation */
+  /* Two-column field row */
+  .field-row { display: flex; gap: 16px; }
+  .field-row .field-group { flex: 1; }
+
   .callout {
-    background: var(--gold-light);
-    border: 1px solid #E0D4AD;
-    border-radius: 8px;
-    padding: 16px 18px;
-    margin-bottom: 24px;
-    font-size: 14px;
-    line-height: 1.65;
-    color: #5C4A1E;
+    background: var(--gold-light); border: 1px solid #E0D4AD; border-radius: 8px;
+    padding: 16px 18px; margin-bottom: 24px; font-size: 14px; line-height: 1.65; color: #5C4A1E;
   }
-  .callout strong {
-    color: #4A3A12;
-  }
+  .callout strong { color: #4A3A12; }
 
-  /* Radio / choice cards */
-  .choice-group {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-  .choice-group.horizontal {
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-  .choice-group.horizontal .choice-card {
-    flex: 1;
-    min-width: 120px;
-  }
-  .choice-card {
-    position: relative;
-    cursor: pointer;
-  }
-  .choice-card input[type="radio"] {
-    position: absolute;
-    opacity: 0;
-    pointer-events: none;
-  }
+  .choice-group { display: flex; flex-direction: column; gap: 10px; }
+  .choice-group.horizontal { flex-direction: row; flex-wrap: wrap; }
+  .choice-group.horizontal .choice-card { flex: 1; min-width: 120px; }
+  .choice-card { position: relative; cursor: pointer; }
+  .choice-card input[type="radio"] { position: absolute; opacity: 0; pointer-events: none; }
   .choice-card .choice-label {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    padding: 14px 16px;
-    border: 1.5px solid var(--border);
-    border-radius: 8px;
-    font-size: 15px;
-    font-weight: 500;
-    background: #FDFCF9;
-    transition: all 0.2s;
+    display: flex; align-items: center; gap: 12px; padding: 14px 16px;
+    border: 1.5px solid var(--border); border-radius: 8px; font-size: 15px; font-weight: 500;
+    background: #FDFCF9; transition: all 0.2s;
   }
   .choice-card .choice-dot {
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    border: 2px solid var(--border);
-    flex-shrink: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.2s;
+    width: 20px; height: 20px; border-radius: 50%; border: 2px solid var(--border);
+    flex-shrink: 0; display: flex; align-items: center; justify-content: center; transition: all 0.2s;
   }
   .choice-card .choice-dot::after {
-    content: '';
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background: var(--maroon);
-    transform: scale(0);
-    transition: transform 0.2s;
+    content: ''; width: 10px; height: 10px; border-radius: 50%; background: var(--maroon);
+    transform: scale(0); transition: transform 0.2s;
   }
-  .choice-card input:checked + .choice-label {
-    border-color: var(--maroon);
-    background: var(--maroon-light);
-  }
-  .choice-card input:checked + .choice-label .choice-dot {
-    border-color: var(--maroon);
-  }
-  .choice-card input:checked + .choice-label .choice-dot::after {
-    transform: scale(1);
-  }
-  .choice-card .choice-label:hover {
-    border-color: #B0888E;
-  }
+  .choice-card input:checked + .choice-label { border-color: var(--maroon); background: var(--maroon-light); }
+  .choice-card input:checked + .choice-label .choice-dot { border-color: var(--maroon); }
+  .choice-card input:checked + .choice-label .choice-dot::after { transform: scale(1); }
+  .choice-card .choice-label:hover { border-color: #B0888E; }
 
-  /* Buttons */
-  .btn-row {
-    display: flex;
-    gap: 12px;
-    justify-content: flex-end;
-    margin-top: 28px;
-  }
+  .btn-row { display: flex; gap: 12px; justify-content: flex-end; margin-top: 28px; }
   .btn {
-    font-family: 'Source Sans 3', sans-serif;
-    font-size: 15px;
-    font-weight: 600;
-    padding: 12px 28px;
-    border-radius: 8px;
-    border: none;
-    cursor: pointer;
-    transition: all 0.2s;
+    font-family: 'Source Sans 3', sans-serif; font-size: 15px; font-weight: 600;
+    padding: 12px 28px; border-radius: 8px; border: none; cursor: pointer; transition: all 0.2s;
   }
-  .btn-primary {
-    background: var(--maroon);
-    color: #fff;
-  }
+  .btn-primary { background: var(--maroon); color: #fff; }
   .btn-primary:hover { background: var(--maroon-dark); }
-  .btn-primary:disabled {
-    background: #C4A0A6;
-    cursor: not-allowed;
-  }
-  .btn-secondary {
-    background: transparent;
-    color: var(--text-muted);
-    border: 1.5px solid var(--border);
-  }
-  .btn-secondary:hover {
-    border-color: var(--text-muted);
-    color: var(--text);
-  }
+  .btn-primary:disabled { background: #C4A0A6; cursor: not-allowed; }
+  .btn-secondary { background: transparent; color: var(--text-muted); border: 1.5px solid var(--border); }
+  .btn-secondary:hover { border-color: var(--text-muted); color: var(--text); }
 
-  /* Error */
-  .error-msg {
-    color: var(--error);
-    font-size: 13px;
-    margin-top: 6px;
-    display: none;
-  }
-  .field-group.has-error input,
-  .field-group.has-error textarea {
-    border-color: var(--error);
-  }
-  .field-group.has-error .error-msg {
-    display: block;
-  }
+  .error-msg { color: var(--error); font-size: 13px; margin-top: 6px; display: none; }
+  .field-group.has-error input, .field-group.has-error textarea { border-color: var(--error); }
+  .field-group.has-error .error-msg { display: block; }
 
-  /* Sections visibility */
   .survey-section { display: none; }
   .survey-section.active { display: block; }
 
-  /* Success state */
-  .success-screen {
-    display: none;
-    text-align: center;
-    padding: 60px 20px;
-  }
+  .success-screen { display: none; text-align: center; padding: 60px 20px; }
   .success-screen.active { display: block; }
   .success-icon {
-    width: 64px;
-    height: 64px;
-    background: var(--gold-light);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto 24px;
+    width: 64px; height: 64px; background: var(--gold-light); border-radius: 50%;
+    display: flex; align-items: center; justify-content: center; margin: 0 auto 24px;
   }
   .success-icon svg { color: var(--gold); }
-  .success-screen h2 {
-    font-family: 'Playfair Display', serif;
-    font-size: 26px;
-    font-weight: 600;
-    color: var(--maroon);
-    margin-bottom: 12px;
-  }
-  .success-screen p {
-    color: var(--text-muted);
-    font-size: 15px;
-    max-width: 440px;
-    margin: 0 auto;
-    line-height: 1.7;
-  }
+  .success-screen h2 { font-family: 'Playfair Display', serif; font-size: 26px; font-weight: 600; color: var(--maroon); margin-bottom: 12px; }
+  .success-screen p { color: var(--text-muted); font-size: 15px; max-width: 440px; margin: 0 auto; line-height: 1.7; }
 
-  /* Review items */
-  .review-item {
-    margin-bottom: 20px;
-    padding-bottom: 20px;
-    border-bottom: 1px solid var(--border);
-  }
+  .review-item { margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid var(--border); }
   .review-item:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
-  .review-q {
-    font-weight: 600;
-    font-size: 13px;
-    margin-bottom: 6px;
-    color: var(--text-muted);
-  }
-  .review-a {
-    font-size: 15px;
-    white-space: pre-wrap;
-  }
+  .review-q { font-weight: 600; font-size: 13px; margin-bottom: 6px; color: var(--text-muted); }
+  .review-a { font-size: 15px; white-space: pre-wrap; }
+  .review-a.empty { color: var(--text-muted); font-style: italic; }
 
-  /* Spinner */
+  .review-section-label {
+    font-family: 'Playfair Display', serif; font-size: 15px; font-weight: 600;
+    color: var(--gold); margin: 28px 0 16px; padding-bottom: 8px; border-bottom: 2px solid var(--gold-light);
+  }
+  .review-section-label:first-child { margin-top: 0; }
+
   .spinner {
-    display: inline-block;
-    width: 18px;
-    height: 18px;
-    border: 2.5px solid rgba(255,255,255,0.3);
-    border-top-color: #fff;
-    border-radius: 50%;
-    animation: spin 0.6s linear infinite;
-    vertical-align: middle;
-    margin-right: 8px;
+    display: inline-block; width: 18px; height: 18px;
+    border: 2.5px solid rgba(255,255,255,0.3); border-top-color: #fff;
+    border-radius: 50%; animation: spin 0.6s linear infinite; vertical-align: middle; margin-right: 8px;
   }
   @keyframes spin { to { transform: rotate(360deg); } }
+  @keyframes fadeUp { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
+  .survey-section.active .card, .survey-section.active .intro-card { animation: fadeUp 0.35s ease both; }
 
-  /* Fade in */
-  @keyframes fadeUp {
-    from { opacity: 0; transform: translateY(16px); }
-    to { opacity: 1; transform: translateY(0); }
-  }
-  .survey-section.active .card,
-  .survey-section.active .intro-card {
-    animation: fadeUp 0.35s ease both;
-  }
-
-  /* Footer */
   .footer {
-    text-align: center;
-    margin-top: 40px;
-    padding-top: 20px;
-    border-top: 1px solid var(--border);
-    font-size: 12px;
-    color: var(--text-muted);
+    text-align: center; margin-top: 40px; padding-top: 20px;
+    border-top: 1px solid var(--border); font-size: 12px; color: var(--text-muted);
   }
-  .footer a { color: var(--maroon); text-decoration: none; }
 
-  /* Responsive */
   @media (max-width: 480px) {
     .container { padding: 20px 16px 60px; }
     .card { padding: 24px 20px; }
@@ -447,6 +179,7 @@
     .btn-row { flex-direction: column; }
     .btn { width: 100%; text-align: center; }
     .choice-group.horizontal { flex-direction: column; }
+    .field-row { flex-direction: column; gap: 0; }
   }
 </style>
 </head>
@@ -463,8 +196,8 @@
     <div class="tagline">Colin Powell School for Civic and Global Leadership &middot; The City College of New York</div>
   </div>
 
-  <!-- ===== STEP 1: Intro + Identity ===== -->
-  <div class="survey-section active" id="step-identity">
+  <!-- ===== STEP 1: Intro + Role Selection ===== -->
+  <div class="survey-section active" id="step-role">
     <div class="intro-card">
       <p><strong>Thank you for being part of HOLI.</strong> We are grateful for your collaboration and for the time you are investing in this experience.</p>
       <p>As part of HOLI internships, all interns and mentors are asked to complete short surveys before, during, and after the internship. Your input helps us strengthen the experience for everyone involved. We anticipate this survey taking under 15 minutes to complete.</p>
@@ -476,21 +209,11 @@
       </div>
     </div>
 
-    <div class="step-label">Step 1 of 3</div>
-    <div class="progress-bar"><div class="progress-fill" style="width:33%"></div></div>
+    <div class="step-label">Step 1 of 4</div>
+    <div class="progress-bar"><div class="progress-fill" style="width:25%"></div></div>
     <div class="card">
-      <h3>About You</h3>
-      <p class="card-desc">Tell us who you are and which survey you're completing.</p>
-      <div class="field-group">
-        <label class="field-label" for="name">Full name <span class="req">*</span></label>
-        <input type="text" id="name" placeholder="Jane Smith" autocomplete="name">
-        <div class="error-msg">Please enter your name.</div>
-      </div>
-      <div class="field-group">
-        <label class="field-label" for="email">Email address <span class="req">*</span></label>
-        <input type="email" id="email" placeholder="jane@example.com" autocomplete="email">
-        <div class="error-msg">Please enter a valid email.</div>
-      </div>
+      <h3>Getting Started</h3>
+      <p class="card-desc">First, let us know your role so we can show you the right questions.</p>
       <div class="field-group">
         <label class="field-label">I am a: <span class="req">*</span></label>
         <div class="choice-group horizontal" id="role-group">
@@ -505,52 +228,47 @@
         </div>
         <div class="error-msg">Please select your role.</div>
       </div>
-      <div class="field-group">
-        <label class="field-label">Which survey are you completing? <span class="req">*</span></label>
-        <div class="choice-group" id="timing-group">
-          <label class="choice-card">
-            <input type="radio" name="timing" value="Pre-Internship">
-            <span class="choice-label"><span class="choice-dot"></span>Pre-Internship</span>
-          </label>
-          <label class="choice-card">
-            <input type="radio" name="timing" value="Midpoint">
-            <span class="choice-label"><span class="choice-dot"></span>Midpoint</span>
-          </label>
-          <label class="choice-card">
-            <input type="radio" name="timing" value="Post-Internship">
-            <span class="choice-label"><span class="choice-dot"></span>Post-Internship</span>
-          </label>
-        </div>
-        <div class="error-msg">Please select a timing.</div>
-      </div>
       <div class="btn-row">
-        <button class="btn btn-primary" onclick="goToQuestions()">Continue</button>
+        <button class="btn btn-primary" onclick="goToIdentity()">Continue</button>
       </div>
     </div>
   </div>
 
-  <!-- ===== STEP 2: Questions ===== -->
+  <!-- ===== STEP 2: Identity (dynamically rendered) ===== -->
+  <div class="survey-section" id="step-identity">
+    <div class="step-label">Step 2 of 4</div>
+    <div class="progress-bar"><div class="progress-fill" style="width:50%"></div></div>
+    <div class="card" id="identity-card">
+      <!-- Injected by JS -->
+    </div>
+    <div class="btn-row" style="margin-top:0">
+      <button class="btn btn-secondary" onclick="showSection('step-role')">Back</button>
+      <button class="btn btn-primary" onclick="goToQuestions()">Continue</button>
+    </div>
+  </div>
+
+  <!-- ===== STEP 3: Questions ===== -->
   <div class="survey-section" id="step-questions">
-    <div class="step-label">Step 2 of 3</div>
-    <div class="progress-bar"><div class="progress-fill" style="width:66%"></div></div>
+    <div class="step-label">Step 3 of 4</div>
+    <div class="progress-bar"><div class="progress-fill" style="width:75%"></div></div>
     <div class="card" id="questions-card">
       <!-- Injected by JS -->
     </div>
     <div class="btn-row" style="margin-top:0">
-      <button class="btn btn-secondary" onclick="goBack()">Back</button>
+      <button class="btn btn-secondary" onclick="showSection('step-identity')">Back</button>
       <button class="btn btn-primary" onclick="goToReview()">Review answers</button>
     </div>
   </div>
 
-  <!-- ===== STEP 3: Review & Submit ===== -->
+  <!-- ===== STEP 4: Review & Submit ===== -->
   <div class="survey-section" id="step-review">
-    <div class="step-label">Step 3 of 3 — Review</div>
+    <div class="step-label">Step 4 of 4 — Review</div>
     <div class="progress-bar"><div class="progress-fill" style="width:100%"></div></div>
     <div class="card" id="review-card">
       <!-- Injected by JS -->
     </div>
     <div class="btn-row" style="margin-top:0">
-      <button class="btn btn-secondary" onclick="goBackToQuestions()">Edit answers</button>
+      <button class="btn btn-secondary" onclick="showSection('step-questions')">Edit answers</button>
       <button class="btn btn-primary" id="submit-btn" onclick="submitSurvey()">Submit</button>
     </div>
   </div>
@@ -577,6 +295,7 @@
 const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbz7SWTd-KGtrps1z5oDEqGt_SQrK8cuie7mJ1vToH2dK0DxwGT_XHz8BbHgz42OGPyN/exec';
 // =====================================================
 
+// ===== QUESTION BANK =====
 const QUESTIONS = {
   'Intern': {
     'Pre-Internship': {
@@ -660,8 +379,9 @@ function getCheckinOptions(timing) {
   return CHECKIN_OPTIONS_POST;
 }
 
-function getVal(id) { return document.getElementById(id) ? document.getElementById(id).value.trim() : ''; }
-function getRadio(name) { const r = document.querySelector('input[name="' + name + '"]:checked'); return r ? r.value : ''; }
+// ===== HELPERS =====
+function getVal(id) { var el = document.getElementById(id); return el ? el.value.trim() : ''; }
+function getRadio(name) { var r = document.querySelector('input[name="' + name + '"]:checked'); return r ? r.value : ''; }
 
 function showSection(id) {
   document.querySelectorAll('.survey-section, .success-screen').forEach(function(s) { s.classList.remove('active'); });
@@ -669,13 +389,16 @@ function showSection(id) {
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
-function validate(fields) {
+function validateRequired(ids) {
   var ok = true;
-  fields.forEach(function(f) {
-    var fg = f.closest('.field-group');
-    if (!f.value || (f.type === 'email' && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(f.value))) {
-      fg.classList.add('has-error');
-      ok = false;
+  ids.forEach(function(id) {
+    var el = document.getElementById(id);
+    if (!el) return;
+    var fg = el.closest('.field-group');
+    if (!fg) return;
+    var val = el.value.trim();
+    if (!val || (el.type === 'email' && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(val))) {
+      fg.classList.add('has-error'); ok = false;
     } else {
       fg.classList.remove('has-error');
     }
@@ -683,97 +406,196 @@ function validate(fields) {
   return ok;
 }
 
-function goToQuestions() {
-  var nameEl = document.getElementById('name');
-  var emailEl = document.getElementById('email');
+function validateRadio(groupId, name) {
+  var fg = document.getElementById(groupId).closest('.field-group');
+  if (!getRadio(name)) { fg.classList.add('has-error'); return false; }
+  fg.classList.remove('has-error'); return true;
+}
+
+function makeField(id, label, placeholder, required, type) {
+  type = type || 'text';
+  var req = required ? '<span class="req">*</span>' : '<span class="opt">(optional)</span>';
+  return '<div class="field-group"><label class="field-label" for="' + id + '">' + label + ' ' + req + '</label>' +
+    '<input type="' + type + '" id="' + id + '" placeholder="' + placeholder + '">' +
+    '<div class="error-msg">Please fill in this field.</div></div>';
+}
+
+function makeFieldRow(fields) {
+  return '<div class="field-row">' + fields.join('') + '</div>';
+}
+
+// ===== STEP 1 → STEP 2 =====
+function goToIdentity() {
+  if (!validateRadio('role-group', 'role')) return;
   var role = getRadio('role');
-  var timing = getRadio('timing');
+  var card = document.getElementById('identity-card');
+  var html = '';
 
-  var ok = validate([nameEl, emailEl]);
+  if (role === 'Intern') {
+    html += '<h3>About You</h3>';
+    html += '<p class="card-desc">Tell us about yourself and your internship placement.</p>';
+    html += makeField('name', 'Full name', 'Jane Smith', true);
+    html += makeField('email', 'Email address', 'jane@example.com', true, 'email');
+    html += makeFieldRow([
+      makeField('school', 'School name', 'e.g. City College, Hunter College', true),
+      makeField('gradyear', 'Graduation year', 'e.g. 2026, Spring 2027', true)
+    ]);
+    html += makeField('org', 'Host organization', 'e.g. NYC Health + Hospitals', true);
+    html += makeField('mentor_name', 'Primary mentor name', 'e.g. Dr. Pierre', true);
+    html += makeFieldRow([
+      makeField('start_date', 'Internship start', 'e.g. January 2026', true),
+      makeField('end_date', 'Internship end', 'e.g. May 2026', false)
+    ]);
+    html += '<div class="field-group"><label class="field-label">Which survey are you completing? <span class="req">*</span></label>';
+    html += '<div class="choice-group" id="timing-group">';
+    html += '<label class="choice-card"><input type="radio" name="timing" value="Pre-Internship"><span class="choice-label"><span class="choice-dot"></span>Pre-Internship</span></label>';
+    html += '<label class="choice-card"><input type="radio" name="timing" value="Midpoint"><span class="choice-label"><span class="choice-dot"></span>Midpoint</span></label>';
+    html += '<label class="choice-card"><input type="radio" name="timing" value="Post-Internship"><span class="choice-label"><span class="choice-dot"></span>Post-Internship</span></label>';
+    html += '</div><div class="error-msg">Please select a timing.</div></div>';
+  } else {
+    html += '<h3>About You</h3>';
+    html += '<p class="card-desc">Tell us about yourself and the intern you are mentoring.</p>';
+    html += makeField('name', 'Full name', 'Dr. Jane Smith', true);
+    html += makeField('email', 'Email address', 'jane@example.com', true, 'email');
+    html += makeFieldRow([
+      makeField('position', 'Position / title', 'e.g. Internist, Managing Director', true),
+      makeField('org', 'Organization', 'e.g. NYC Health + Hospitals', true)
+    ]);
+    html += makeField('student_name', 'Student\u2019s name', 'e.g. Chanelly Martinez Mayi', true);
+    html += makeFieldRow([
+      makeField('start_date', 'Internship start', 'e.g. January 2026', true),
+      makeField('end_date', 'Internship end', 'e.g. May 2026', false)
+    ]);
+    html += '<div class="field-group"><label class="field-label">Which survey are you completing? <span class="req">*</span></label>';
+    html += '<div class="choice-group" id="timing-group">';
+    html += '<label class="choice-card"><input type="radio" name="timing" value="Pre-Internship"><span class="choice-label"><span class="choice-dot"></span>Pre-Internship</span></label>';
+    html += '<label class="choice-card"><input type="radio" name="timing" value="Midpoint"><span class="choice-label"><span class="choice-dot"></span>Midpoint</span></label>';
+    html += '<label class="choice-card"><input type="radio" name="timing" value="Post-Internship"><span class="choice-label"><span class="choice-dot"></span>Post-Internship</span></label>';
+    html += '</div><div class="error-msg">Please select a timing.</div></div>';
+  }
 
-  ['role-group', 'timing-group'].forEach(function(gid) {
-    var fg = document.getElementById(gid).closest('.field-group');
-    var checked = gid === 'role-group' ? role : timing;
-    if (!checked) { fg.classList.add('has-error'); ok = false; }
-    else { fg.classList.remove('has-error'); }
-  });
+  card.innerHTML = html;
+  showSection('step-identity');
+}
 
+// ===== STEP 2 → STEP 3 =====
+function goToQuestions() {
+  var role = getRadio('role');
+  var requiredIds, ok;
+
+  if (role === 'Intern') {
+    requiredIds = ['name', 'email', 'school', 'gradyear', 'org', 'mentor_name', 'start_date'];
+  } else {
+    requiredIds = ['name', 'email', 'position', 'org', 'student_name', 'start_date'];
+  }
+
+  ok = validateRequired(requiredIds);
+  if (!validateRadio('timing-group', 'timing')) ok = false;
   if (!ok) return;
 
+  var timing = getRadio('timing');
   var data = QUESTIONS[role][timing];
   var checkinOpts = getCheckinOptions(timing);
   var card = document.getElementById('questions-card');
 
   var html = '<h3>' + role + ': ' + timing + ' Survey</h3>';
-  html += '<p class="card-desc">All questions are required.</p>';
+  html += '<p class="card-desc">All questions are required unless noted.</p>';
 
   // Check-in callout + question
   html += '<div class="callout"><strong>Recommended:</strong> ' + data.checkin.callout + '</div>';
-  html += '<div class="field-group">';
-  html += '<label class="field-label">' + data.checkin.question + ' <span class="req">*</span></label>';
+  html += '<div class="field-group"><label class="field-label">' + data.checkin.question + ' <span class="req">*</span></label>';
   html += '<div class="choice-group" id="checkin-group">';
-  checkinOpts.forEach(function(opt, i) {
+  checkinOpts.forEach(function(opt) {
     html += '<label class="choice-card"><input type="radio" name="checkin" value="' + opt + '"><span class="choice-label"><span class="choice-dot"></span>' + opt + '</span></label>';
   });
-  html += '</div>';
-  html += '<div class="error-msg">Please select an option.</div>';
-  html += '</div>';
+  html += '</div><div class="error-msg">Please select an option.</div></div>';
 
   // Main questions
   data.qs.forEach(function(q, i) {
-    html += '<div class="field-group">';
-    html += '<label class="field-label" for="q' + i + '">' + q + ' <span class="req">*</span></label>';
+    html += '<div class="field-group"><label class="field-label" for="q' + i + '">' + q + ' <span class="req">*</span></label>';
     html += '<textarea id="q' + i + '" placeholder="Your response\u2026"></textarea>';
-    html += '<div class="error-msg">Please provide a response.</div>';
-    html += '</div>';
+    html += '<div class="error-msg">Please provide a response.</div></div>';
   });
+
+  // Final open-ended (optional)
+  html += '<div class="field-group"><label class="field-label" for="q_extra">Is there anything else you\u2019d like to share? <span class="opt">(optional)</span></label>';
+  html += '<textarea id="q_extra" placeholder="Any additional thoughts, feedback, or context\u2026" style="min-height:90px"></textarea></div>';
 
   card.innerHTML = html;
   showSection('step-questions');
 }
 
-function goBack() { showSection('step-identity'); }
-
+// ===== STEP 3 → STEP 4 (REVIEW) =====
 function goToReview() {
   var role = getRadio('role');
   var timing = getRadio('timing');
   var data = QUESTIONS[role][timing];
   var checkin = getRadio('checkin');
-  var answers = [];
   var ok = true;
 
   // Validate check-in
-  var checkinFg = document.getElementById('checkin-group').closest('.field-group');
-  if (!checkin) { checkinFg.classList.add('has-error'); ok = false; }
-  else { checkinFg.classList.remove('has-error'); }
+  if (!validateRadio('checkin-group', 'checkin')) ok = false;
 
   // Validate textareas
-  data.qs.forEach(function(q, i) {
-    var ta = document.getElementById('q' + i);
-    var fg = ta.closest('.field-group');
-    if (!ta.value.trim()) { fg.classList.add('has-error'); ok = false; }
-    else { fg.classList.remove('has-error'); answers.push({ q: q, a: ta.value.trim() }); }
+  var requiredQs = ['q0', 'q1', 'q2'];
+  requiredQs.forEach(function(id) {
+    var el = document.getElementById(id);
+    var fg = el.closest('.field-group');
+    if (!el.value.trim()) { fg.classList.add('has-error'); ok = false; }
+    else { fg.classList.remove('has-error'); }
   });
 
   if (!ok) return;
 
   var rc = document.getElementById('review-card');
   var html = '<h3>Review Your Answers</h3>';
-  html += '<p class="card-desc">' + getVal('name') + ' &middot; ' + role + ' &middot; ' + timing + '</p>';
+  html += '<p class="card-desc">Please confirm everything looks correct before submitting.</p>';
 
-  // Check-in review
-  html += '<div class="review-item"><div class="review-q">' + data.checkin.question + '</div><div class="review-a">' + checkin + '</div></div>';
+  // Identity section
+  html += '<div class="review-section-label">Your Information</div>';
+  html += reviewItem('Role', role);
+  html += reviewItem('Name', getVal('name'));
+  html += reviewItem('Email', getVal('email'));
 
-  answers.forEach(function(a) {
-    html += '<div class="review-item"><div class="review-q">' + a.q + '</div><div class="review-a">' + a.a + '</div></div>';
+  if (role === 'Intern') {
+    html += reviewItem('School', getVal('school'));
+    html += reviewItem('Graduation Year', getVal('gradyear'));
+    html += reviewItem('Host Organization', getVal('org'));
+    html += reviewItem('Primary Mentor', getVal('mentor_name'));
+  } else {
+    html += reviewItem('Position', getVal('position'));
+    html += reviewItem('Organization', getVal('org'));
+    html += reviewItem('Student\u2019s Name', getVal('student_name'));
+  }
+
+  html += reviewItem('Internship Start', getVal('start_date'));
+  var endDate = getVal('end_date');
+  if (endDate) html += reviewItem('Internship End', endDate);
+  html += reviewItem('Survey Timing', timing);
+
+  // Questions section
+  html += '<div class="review-section-label">' + timing + ' Questions</div>';
+  html += reviewItem(data.checkin.question, checkin);
+  data.qs.forEach(function(q, i) {
+    html += reviewItem(q, document.getElementById('q' + i).value.trim());
   });
+
+  var extra = getVal('q_extra');
+  if (extra) {
+    html += reviewItem('Anything else', extra);
+  }
 
   rc.innerHTML = html;
   showSection('step-review');
 }
 
-function goBackToQuestions() { showSection('step-questions'); }
+function reviewItem(q, a) {
+  var cls = a ? '' : ' empty';
+  var display = a || '(not provided)';
+  return '<div class="review-item"><div class="review-q">' + q + '</div><div class="review-a' + cls + '">' + display + '</div></div>';
+}
 
+// ===== SUBMIT =====
 async function submitSurvey() {
   var btn = document.getElementById('submit-btn');
   btn.disabled = true;
@@ -782,26 +604,38 @@ async function submitSurvey() {
   var role = getRadio('role');
   var timing = getRadio('timing');
   var data = QUESTIONS[role][timing];
-  var checkin = getRadio('checkin');
 
   var payload = {
     timestamp: new Date().toISOString(),
+    role: role,
     name: getVal('name'),
     email: getVal('email'),
-    role: role,
     timing: timing,
+    // Role-specific fields
+    school: role === 'Intern' ? getVal('school') : '',
+    grad_year: role === 'Intern' ? getVal('gradyear') : '',
+    position: role === 'Mentor' ? getVal('position') : '',
+    organization: getVal('org'),
+    counterpart_name: role === 'Intern' ? getVal('mentor_name') : getVal('student_name'),
+    start_date: getVal('start_date'),
+    end_date: getVal('end_date'),
+    // Check-in
     checkin_question: data.checkin.question,
-    checkin_answer: checkin,
+    checkin_answer: getRadio('checkin'),
+    // Survey questions
     q1: data.qs[0],
     a1: document.getElementById('q0').value.trim(),
     q2: data.qs[1],
     a2: document.getElementById('q1').value.trim(),
     q3: data.qs[2],
-    a3: document.getElementById('q2').value.trim()
+    a3: document.getElementById('q2').value.trim(),
+    // Extra
+    extra: getVal('q_extra')
   };
 
   try {
-if (APPS_SCRIPT_URL === 'YOUR_APPS_SCRIPT_URL_HERE') {      console.log('Survey payload (no backend configured):', payload);
+    if (APPS_SCRIPT_URL === 'YOUR_APPS_SCRIPT_URL_HERE') {
+      console.log('Survey payload (no backend configured):', payload);
       await new Promise(function(r) { setTimeout(r, 800); });
     } else {
       await fetch(APPS_SCRIPT_URL, {
